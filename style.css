@@ -1,0 +1,84 @@
+/*
+This is the normal style sheet to be used for non-mobile devices.
+*/
+//Container for the entire site
+#container {
+ margin: auto;
+ width: 950px;
+}
+
+/*Sets background color and position for the content of the site (i.e. name, bio, links, social, etc.*/
+#back {
+ position:relative;
+ margin:40px auto;
+ right:240px;
+ width:410px;
+ background-color:rgba(255,255,255,0.8);
+ border-radius: 10px;
+}
+
+/*This section specifically lays out the content sections within the back div*/
+#name {
+ position:relative;
+ top:5px;
+ text-align: center;
+ height:50px;
+}
+
+#bio {
+ position:relative;
+ left:2%;
+ width:96%;
+}
+
+#social {
+ position:relative;
+ text-align: center;
+}
+
+#links {
+ position:relative;
+ top:-5px;
+ left:2%;
+ width:98%;
+ line-height:25px;
+}
+
+/*This positions the footer, which is completely seperate from the other content on the site.  This also provides completely seperate formatting because of the differnece between the footer and the rest of the content on the site.*/
+#footer {
+ position:fixed;
+ bottom:0;
+ width: 98%;
+ text-align: center;
+ color:#ffffff;
+ font-size:10px;
+ font-family:"helvetica";
+}
+
+/*This sets the formating for the content in the divs (excluding the footer)*/
+h1 {
+font-size:48px;
+font-family:"helvetica";
+text-align: center;
+}
+
+p {
+font-size:14px;
+font-family:"helvetica";
+}
+
+ul, li {
+list-style-type: none;
+font-size:14px;
+font-family:"helvetica";
+font-weight: bold;
+margin-left: -20px;
+}
+
+/*This sets the background color and image*/
+body {
+background:#000000;
+background-image:url('images/allen.jpg');
+background-repeat:no-repeat;
+background-position:center top;
+}
