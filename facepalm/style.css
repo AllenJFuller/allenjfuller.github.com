@@ -1,0 +1,49 @@
+/*
+This is the style sheet for all devices.
+*/
+//Container for the entire site
+#container {
+ margin: auto;
+ width: 950px;
+}
+
+/*This positions the footer, which is completely seperate from the other content on the site.  This also provides completely seperate formatting because of the differnece between the footer and the rest of the content on the site.*/
+#footer {
+ position:fixed;
+ bottom:0;
+ width: 98%;
+ text-align: center;
+ color:#000000;
+ font-size:8px;
+ font-family:"helvetica";
+}
+
+#centerimg
+{
+ text-align:center;
+ margin-top:0px;
+ margin-bottom:0px;
+ padding:0px;
+}
+
+/*This sets the formating for the content in the divs (excluding the footer)*/
+h1 {
+ font-size:48px;
+ font-family:"helvetica";
+ text-align: center;
+}
+
+p {
+ font-size:14px;
+ font-family:"helvetica";
+}
+
+img {
+ max-width: 70%;
+ max-height: 70%
+}
+
+/*This sets the background color*/
+body {
+ background:#ffffff;
+}
